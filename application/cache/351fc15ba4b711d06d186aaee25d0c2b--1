@@ -1,0 +1,2982 @@
+a:2:{s:6:"expire";i:1493299591;s:7:"headers";a:6:{i:0;a:2:{i:0;s:15:"HTTP/1.0 200 OK";i:1;b:1;}i:1;a:2:{i:0;s:15:"HTTP/1.1 200 OK";i:1;b:1;}i:2;a:2:{i:0;s:44:"Last-Modified: Wed, 26 Apr 2017 13:26:30 GMT";i:1;b:1;}i:3;a:2:{i:0;s:50:"Cache-Control: no-store, no-cache, must-revalidate";i:1;b:1;}i:4;a:2:{i:0;s:40:"Cache-Control: post-check=0, pre-check=0";i:1;b:1;}i:5;a:2:{i:0;s:16:"Pragma: no-cache";i:1;b:1;}}}ENDCI---><!DOCTYPE html>
+<html lang="en">
+    <head>
+    	    	<title>Featured || </title>
+    	
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="ActiveItZone">
+        <meta name="revisit-after" content="2 days">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+              
+        <!-- Favicon -->
+                <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost/ecomx/template/front/ico/apple-touch-icon-144-precomposed.png">
+        
+        <link rel="shortcut icon" href="http://localhost/ecomx/uploads/others/favicon.png">
+        
+        <title>Featured</title>
+        
+        <!-- CSS Global -->
+        <link href="http://localhost/ecomx/template/front/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://localhost/ecomx/template/front/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
+        <link href="http://localhost/ecomx/template/front/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="http://localhost/ecomx/template/front/plugins/animate/animate.min.css" rel="stylesheet">
+        <link href="http://localhost/ecomx/template/front/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+        <link href="http://localhost/ecomx/template/front/modal/css/sm.css" rel="stylesheet">
+        
+        <!-- Theme CSS -->
+                <link href="http://localhost/ecomx/template/front/css/theme.css" rel="stylesheet">
+        <link href="http://localhost/ecomx/template/front/css/theme-purple-1.css" rel="stylesheet" id="theme-config-link">
+        
+        <!-- Head Libs -->
+        <script src="http://localhost/ecomx/template/front/plugins/jquery/jquery-1.11.1.min.js"></script>
+			
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+        <style>
+			*{
+				font-family: 'Roboto', sans-serif;
+			}
+			.remove_one{
+				cursor:pointer;
+				padding-left:5px;	
+			}
+		</style>
+        		    </head>
+    <body id="home" class="wide">
+        <!-- PRELOADER -->
+    	<link href="http://localhost/ecomx/template/front/preloader/css/Icomoon/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+	//$(window).load(function() {
+	$(document).ready(function(e) {
+		$("#loading").delay(500).fadeOut(500);
+		$("#loading-center").click(function() {
+			$("#loading").fadeOut(500);
+		});
+		setTimeout(function(){ load_iamges(); }, 1000);	
+		
+	});
+</script>
+
+
+<style>
+#loading-center{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	}
+#loading-center-absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 150px;
+	width: 150px;
+	margin-top: -75px;
+	margin-left: -75px;
+    -moz-border-radius: 50% 50% 50% 50%;
+	-webkit-border-radius: 50% 50% 50% 50%;
+	border-radius: 50% 50% 50% 50%;
+
+}
+.object{
+	width: 20px;
+	height: 20px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	-moz-border-radius: 50% 50% 50% 50%;
+	-webkit-border-radius: 50% 50% 50% 50%;
+	border-radius: 50% 50% 50% 50%;
+	-webkit-animation: animate 0.8s infinite;
+	animation: animate 0.8s infinite;
+	}
+
+
+#object_one {
+	top: 19px;
+	left: 19px;	
+
+	}
+#object_two {
+	top: 0px;
+	left: 65px; 
+	-webkit-animation-delay: 0.1s; 
+    animation-delay: 0.1s;
+
+	}
+#object_three {
+	top: 19px;
+	left: 111px; 	
+	-webkit-animation-delay: 0.2s; 
+    animation-delay: 0.2s; 
+
+	}
+#object_four {
+	top: 65px;
+	left: 130px; 
+	-webkit-animation-delay: 0.3s; 
+    animation-delay: 0.3s; 
+}
+#object_five {
+	top: 111px;
+	left: 111px; 
+	-webkit-animation-delay: 0.4s; 
+    animation-delay: 0.4s; 
+}
+#object_six {
+	top: 130px;
+	left: 65px;
+	-webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s; 
+}
+#object_seven {
+	top: 111px;
+	left: 19px;
+	-webkit-animation-delay: 0.6s; 
+    animation-delay: 0.6s; 
+}
+#object_eight {
+	top: 65px;
+	left: 0px;
+	 -webkit-animation-delay: 0.7s; 
+    animation-delay: 0.7s; 
+}
+
+
+
+
+@-webkit-keyframes animate {
+ 
+  25% {
+	-ms-transform: scale(1.5); 
+   	-webkit-transform: scale(1.5);   
+    transform: scale(1.5);  
+	  }
+
+
+  75% {
+	-ms-transform: scale(0); 
+   	-webkit-transform: scale(0);  
+    transform: scale(0);  
+	  }
+
+
+}
+
+@keyframes animate {
+  50% {
+	-ms-transform: scale(1.5,1.5); 
+   	-webkit-transform: scale(1.5,1.5); 
+    transform: scale(1.5,1.5); 
+	  }
+ 
+  100% {
+	-ms-transform: scale(1,1); 
+   	-webkit-transform: scale(1,1); 
+    transform: scale(1,1); 
+	  }
+  
+}
+
+
+
+
+</style>
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+            <div class="object" id="object_five"></div>
+            <div class="object" id="object_six"></div>
+            <div class="object" id="object_seven"></div>
+            <div class="object" id="object_eight"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+
+#loading{
+	background-color: rgba(74,0,94,1);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 1050;
+	margin-top: 0px;
+	top: 0px;
+}
+</style>
+        <!-- /PRELOADER -->
+
+        <!-- WRAPPER -->
+        <div class="wrapper">
+
+            <!-- Popup: Shopping cart items -->
+			<div class="modal fade popup-cart" id="popup-cart" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="container">
+            <div class="cart-items">
+                <div class="cart-items-inner">
+                    <span class="top_carted_list">
+                    </span>
+                    <div class="media">
+                        <p class="pull-right item-price shopping-cart__total">$450.00</p>
+                        <div class="media-body">
+                            <h4 class="media-heading item-title summary">
+                                Subtotal                            </h4>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-body">
+                            <div>
+                                <span class="btn btn-theme-dark" data-dismiss="modal">
+                                    Close                                </span><!--
+                                -->
+                                <a href="http://localhost/ecomx/index.php/home/cart_checkout" class="btn  btn-theme-transparent btn-call-checkout">
+                                    Checkout                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>            
+            <!-- /Popup: Shopping cart items -->
+
+            <!-- HEADER -->
+			<!-- Header top bar -->
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-left">
+            <ul class="list-inline">
+                <li class="dropdown flags">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                <img src="http://localhost/ecomx/uploads/language_list_image/language_list_1.jpg" width="20px;" alt=""/> <span class="hidden-xs">English</span><i class="fa fa-angle-down"></i></a>
+                        <ul role="menu" class="dropdown-menu">
+                                                            <li class="active" >
+                                    <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_language/english">
+                                        <img src="http://localhost/ecomx/uploads/language_list_image/language_list_1.jpg" width="20px;" alt=""/>
+                                        English                                                                                    <i class="fa fa-check"></i>
+                                                                            </a>
+                                </li>
+                                                            <li  >
+                                    <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_language/Bangla">
+                                        <img src="http://localhost/ecomx/uploads/language_list_image/language_list_2.jpg" width="20px;" alt=""/>
+                                        বাংলা                                                                            </a>
+                                </li>
+                                                            <li  >
+                                    <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_language/Arabic">
+                                        <img src="http://localhost/ecomx/uploads/language_list_image/language_list_4.jpg" width="20px;" alt=""/>
+                                        Arabic                                                                            </a>
+                                </li>
+                                                            <li  >
+                                    <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_language/French">
+                                        <img src="http://localhost/ecomx/uploads/language_list_image/language_list_5.jpg" width="20px;" alt=""/>
+                                        French                                                                            </a>
+                                </li>
+                                                            <li  >
+                                    <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_language/Chinese">
+                                        <img src="http://localhost/ecomx/uploads/language_list_image/language_list_6.jpg" width="20px;" alt=""/>
+                                        Chinese                                                                            </a>
+                                </li>
+                                                </ul>
+                </li>
+                <li class="dropdown flags" style="z-index: 1001;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                <span class="hidden-xs">U.S. Dollar</span> ($)
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul role="menu" class="dropdown-menu">
+                                                    <li class="active" >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/1">
+                                    U.S. Dollar ($)
+                                                                            <i class="fa fa-check"></i>
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/2">
+                                    Australian Dollar ($)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/5">
+                                    Brazilian Real (R$)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/6">
+                                    Canadian Dollar ($)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/7">
+                                    Czech Koruna (Kč)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/8">
+                                    Danish Krone (kr)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/9">
+                                    Euro (€)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/10">
+                                    Hong Kong Dollar ($)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/11">
+                                    Hungarian Forint (Ft)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/12">
+                                    Israeli New Sheqel (₪)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/13">
+                                    Japanese Yen (¥)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/14">
+                                    Malaysian Ringgit (RM)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/15">
+                                    Mexican Peso ($)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/16">
+                                    Norwegian Krone (kr)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/17">
+                                    New Zealand Dollar ($)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/18">
+                                    Philippine Peso (₱)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/19">
+                                    Polish Zloty (zł)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/20">
+                                    Pound Sterling (£)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/21">
+                                    Russian Ruble (руб)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/22">
+                                    Singapore Dollar ($)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/23">
+                                    Swedish Krona (kr)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/24">
+                                    Swiss Franc (CHF)
+                                                                    </a>
+                            </li>
+                                                    <li  >
+                                <a class="set_langs" data-href="http://localhost/ecomx/index.php/home/set_currency/26">
+                                    Thai Baht (฿)
+                                                                    </a>
+                            </li>
+                                            </ul>
+
+                </li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            ----- ----- -----
+        </div>
+    </div>
+</div>
+<!-- /Header top bar -->
+
+<!-- HEADER -->
+<header class="header header-logo-left">
+    <div class="header-wrapper">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+            	                <a href="http://localhost/ecomx/">
+                	<img src="http://localhost/ecomx/uploads/logo_image/logo_70.png" alt="SuperShop"/>
+             	</a>
+            </div>
+            <!-- /Logo -->
+            <!-- Header search -->
+            <div class="header-search">                            
+                <form action="http://localhost/ecomx/index.php/home/text_search/" method="post" accept-charset="utf-8">
+<input type="hidden" name="csrf_test_name" value="9fbcc34e46ccd9355cd26ce152f59b0b" style="display:none;" />
+                    <input class="form-control" type="text" name="query" placeholder="What Are You Looking For?"/>
+                    <select
+                        class="selectpicker header-search-select cat_select hidden-xs" data-live-search="true" name="category"
+                        data-toggle="tooltip" title="Select">
+                        <option value="0">All Categories</option>
+                                                <option value="1">Automobile</option>
+                                                <option value="4">Women fashion</option>
+                                                <option value="5">Men fashion</option>
+                                                <option value="16">Example category 1</option>
+                                                <option value="17">Example category 2</option>
+                                                <option value="18">Example category 3</option>
+                                                <option value="19">Example category 4</option>
+                                                <option value="20">Example Digital</option>
+                                                <option value="12">Web Development</option>
+                                                <option value="13">Graphics design</option>
+                                            </select>
+                                        <button class="shrc_btn"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <!-- /Header search -->
+
+            <!-- Header shopping cart -->
+            <div class="header-cart">
+                <div class="cart-wrapper">
+                    <a href="http://localhost/ecomx/index.php/home/compare" class="btn btn-theme-transparent" id="compare_tooltip" data-toggle="tooltip" data-original-title="0" data-placement="right" >
+                    	<i class="fa fa-exchange"></i>
+						<span class="hidden-sm hidden-xs">Compare</span>
+                        (
+                        <span id="compare_num">
+                            0                        </span>
+                        )
+                    </a>
+                    <a href="#" class="btn btn-theme-transparent" data-toggle="modal" data-target="#popup-cart">
+                        <i class="fa fa-shopping-cart"></i> 
+                        <span class="hidden-xs"> 
+                            <span class="cart_num"></span> 
+                            Item(s)                        
+                        </span>  
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <!-- Mobile menu toggle button -->
+                    <a href="#" class="menu-toggle btn btn-theme-transparent"><i class="fa fa-bars"></i></a>
+                    <!-- /Mobile menu toggle button -->
+                </div>
+            </div>
+            <!-- Header shopping cart -->
+
+        </div>
+    </div>
+    <div class="navigation-wrapper">
+        <div class="container">
+            <!-- Navigation -->
+                        <nav class="navigation closed clearfix">
+                <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
+                <ul class="nav sf-menu">
+                    <li >
+                        <a href="http://localhost/ecomx/index.php/home">
+                            Homepage                        </a>
+                    </li>
+                    <li class="hidden-sm hidden-xs ">
+                        <a href="http://localhost/ecomx/index.php/home/all_category">
+							All Categories                        </a>
+                        <ul>
+                        	                            <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/1">
+                                    Automobile                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/4">
+                                    Women fashion                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/5">
+                                    Men fashion                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/16">
+                                    Example category 1                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/17">
+                                    Example category 2                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/18">
+                                    Example category 3                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/19">
+                                    Example category 4                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/20">
+                                    Example Digital                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/12">
+                                    Web Development                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/13">
+                                    Graphics design                                </a>
+                            </li>
+                                                    </ul>
+                    </li>
+                    <li class="hidden-lg hidden-md ">
+                        <a href="#">
+							All Categories                        </a>
+                        <ul>
+                        	                            <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/1">
+                                    Automobile                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/4">
+                                    Women fashion                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/5">
+                                    Men fashion                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/16">
+                                    Example category 1                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/17">
+                                    Example category 2                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/18">
+                                    Example category 3                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/19">
+                                    Example category 4                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/20">
+                                    Example Digital                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/12">
+                                    Web Development                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/category/13">
+                                    Graphics design                                </a>
+                            </li>
+                                                    </ul>
+                    </li>
+                    <li class="hidden-lg hidden-md ">
+                        <a href="http://localhost/ecomx/index.php/home/all_category">
+                            All Sub Categories                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="http://localhost/ecomx/index.php/home/others_product/featured">
+                            Featured Products                        </a>
+                    </li>
+                    <li class="">
+                        <a href="http://localhost/ecomx/index.php/home/others_product/todays_deal">
+                            Todays Deal                        </a>
+                    </li>
+                                        <li class="">
+                        <a href="http://localhost/ecomx/index.php/home/others_product/latest">
+                            Latest Products                        </a>
+                    </li>
+                                                            <li >
+                        <a href="http://localhost/ecomx/index.php/home/all_brands/">
+                            All Brands                        </a>
+                    </li>
+                                                            <li class="hidden-sm hidden-xs ">
+                        <a href="http://localhost/ecomx/index.php/home/blog">
+                            Blogs                        </a>
+                        <ul>
+                        	                            <li>
+                                <a href="http://localhost/ecomx/index.php/home/blog/1">
+                                    Health                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/blog/2">
+                                    Beauty                                </a>
+                            </li>
+                                                    </ul>
+                    </li>
+                    <li class="hidden-lg hidden-md ">
+                        <a href="#">
+                            Blogs                        </a>
+                        <ul>
+                        	                            <li>
+                                <a href="http://localhost/ecomx/index.php/home/blog/1">
+                                    Health                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/blog/2">
+                                    Beauty                                </a>
+                            </li>
+                                                    </ul>
+                    </li>
+                                        <li >
+                        <a href="http://localhost/ecomx/index.php/home/contact">
+                            Contact                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+							More                        </a>
+                        <ul>
+                                                                                    <li>
+                                <a href="http://localhost/ecomx/index.php/home/page/new_page1">
+                                    new page1                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/page/Documentation">
+                                    Documentation                                </a>
+                            </li>
+                                                    </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /Navigation -->
+        </div>
+    </div>
+</header>
+<!-- /HEADER -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.set_langs').on('click',function(){
+            var lang_url = $(this).data('href');                                    
+            $.ajax({url: lang_url, success: function(result){
+                location.reload();
+            }});
+        });
+        $('.top-bar-right').load('http://localhost/ecomx/index.php/home/top_bar_right');
+    });
+</script>
+<style>
+    .dropdown-menu .active a{
+        color: #fff !important;
+    }
+    .dropdown-menu li a{
+        cursor: pointer;
+    }
+    .header-search select {
+        display: none !important;
+    }
+	.cat_select button{
+		right:170px !important;
+	}
+	@media (max-width: 768px) {
+		.cat_select button{
+			right:80px !important;
+		}
+	}
+</style>
+<style>
+.header.header-logo-left .header-search .header-search-select .dropdown-toggle {
+    right: 40px !important;
+}
+</style>
+            
+            <!-- /HEADER -->
+
+            <!-- CONTENT AREA -->
+            <div class="content-area">
+				<!-- BREADCRUMBS -->
+<section class="page-section breadcrumbs">
+    <div class="container">
+        <div class="page-header">
+            <h2 class="section-title section-title-lg">
+                <span>
+                    Featured  
+                    <span class="thin"> Products</span>
+                </span>
+            </h2>
+         </div>
+    </div>
+</section>
+<!-- /BREADCRUMBS -->
+<!-- PAGE WITH SIDEBAR -->
+<input type="hidden" value="featured" id="type" />
+<section class="page-section with-sidebar">
+    <div class="container">
+        <div class="row">
+            <!-- SIDEBAR -->
+            <aside class="col-md-3 sidebar hidden-sm hidden-xs" id="sidebar">
+    <div class="row">
+    <div class="col-md-12">
+	<div style="background:#fff; padding:15px;">
+        <h4 class="section-title">
+            Advance Search        </h4>
+        <form action="http://localhost/ecomx/index.php/home/home_search/text" class="sky-form" method="post" enctype="multipart/form-data" style="border:none !important;" accept-charset="utf-8">
+<input type="hidden" name="csrf_test_name" value="9fbcc34e46ccd9355cd26ce152f59b0b" style="display:none;" />
+            <div class="row">
+                <div class="col-md-12">
+                    <select class="selectpicker" data-live-search="true" name="category" data-toggle="tooltip" title="Select" onChange="set_search_by_cat(this);">
+                        <option value="0"  data-cat="0" 
+                            data-min="7" 
+                               data-max="4800000" 
+                                data-brands="41:::Chevrolet;;;;;;40:::Ford;;;;;;39:::Nissan;;;;;;38:::Audi;;;;;;44:::Hyundai;;;;;;45:::BMW;;;;;;46:::Marcedes-Benz;;;;;;47:::Mitsubishi;;;;;;51:::Toyota;;;;;;52:::Honda;;;;;;54:::Volvo;;;;;;50:::Lamborghini;;;;;;55:::Porsche;;;;;;48:::Suzuki;;;;;;56:::Dunlop;;;;;;57:::Yamaha;;;;;;8:::Lucky Brand;;;;;;10:::Victoria's Secret;;;;;;11:::Dior;;;;;;13:::Priscess Purse;;;;;;14:::En'or;;;;;;15:::Jlo;;;;;;9:::The Crystal Bride;;;;;;22:::Aigner;;;;;;25:::Hudson;;;;;;26:::Omega;;;;;;27:::Breitling;;;;;;30:::Giorgio Armani;;;;;;17:::Polo;;;;;;23:::Adidas;;;;;;24:::Asics;;;;;;33:::Cognac;;;;;;35:::Nike;;;;;;20:::Baume & Mercier;;;;;;21:::Pepe Jeans;;;;;;31:::Castillo;;;;;;37:::Puma;;;;;;18:::Rolex;;;;;;29:::Axe;;;;;;34:::Project Vision;;;;;;63:::Apple;;;;;;6:::Brighton;;;;;;7:::Tanishq;;;;;;16:::The Vested Interest;;;;;;12:::Bucket Feet;;;;;;19:::Elle;;;;;;100:::Gucci;;;;;;101:::eternal love;;;;;;102:::Calvin Klein" 
+                                    data-subdets='[]'>
+                                    All Categories                        </option>
+                                                <option value="1" 
+                            data-cat="1" 
+                                data-min="13150" 
+                                   data-max="4800000" 
+                                    data-brands="41:::Chevrolet;;;;;;40:::Ford;;;;;;39:::Nissan;;;;;;38:::Audi;;;;;;44:::Hyundai;;;;;;45:::BMW;;;;;;46:::Marcedes-Benz;;;;;;47:::Mitsubishi;;;;;;51:::Toyota;;;;;;52:::Honda;;;;;;54:::Volvo;;;;;;50:::Lamborghini;;;;;;55:::Porsche;;;;;;48:::Suzuki;;;;;;56:::Dunlop;;;;;;57:::Yamaha" 
+                                        data-subdets='[{"sub_id":"1","sub_name":"Car","min":0,"max":0,"brands":"41:::Chevrolet;;;;;;40:::Ford;;;;;;39:::Nissan;;;;;;38:::Audi;;;;;;44:::Hyundai;;;;;;45:::BMW;;;;;;46:::Marcedes-Benz;;;;;;47:::Mitsubishi;;;;;;51:::Toyota;;;;;;52:::Honda;;;;;;54:::Volvo"},{"sub_id":"2","sub_name":"Racing Car","min":0,"max":0,"brands":"41:::Chevrolet;;;;;;40:::Ford;;;;;;39:::Nissan;;;;;;38:::Audi;;;;;;45:::BMW;;;;;;46:::Marcedes-Benz;;;;;;47:::Mitsubishi;;;;;;50:::Lamborghini;;;;;;51:::Toyota;;;;;;52:::Honda;;;;;;54:::Volvo;;;;;;55:::Porsche"},{"sub_id":"3","sub_name":"Luxury SUV","min":46545,"max":140825,"brands":"41:::Chevrolet;;;;;;40:::Ford;;;;;;39:::Nissan;;;;;;45:::BMW;;;;;;47:::Mitsubishi;;;;;;51:::Toyota;;;;;;54:::Volvo"},{"sub_id":"5","sub_name":"Chopper Bike","min":13150,"max":79560,"brands":"39:::Nissan;;;;;;45:::BMW;;;;;;48:::Suzuki;;;;;;52:::Honda;;;;;;56:::Dunlop;;;;;;57:::Yamaha"},{"sub_id":"6","sub_name":"Racing Bike","min":36000,"max":48000,"brands":"45:::BMW;;;;;;52:::Honda;;;;;;57:::Yamaha"},{"sub_id":"63","sub_name":"Private Air","min":775000,"max":4800000,"brands":"40:::Ford;;;;;;39:::Nissan;;;;;;38:::Audi;;;;;;46:::Marcedes-Benz;;;;;;47:::Mitsubishi;;;;;;55:::Porsche"}]'>
+                                            Automobile                        </option>
+                                                <option value="4" 
+                            data-cat="4" 
+                                data-min="7" 
+                                   data-max="8999" 
+                                    data-brands="8:::Lucky Brand;;;;;;10:::Victoria's Secret;;;;;;11:::Dior;;;;;;13:::Priscess Purse;;;;;;14:::En'or;;;;;;15:::Jlo;;;;;;9:::The Crystal Bride;;;;;;6:::Brighton;;;;;;7:::Tanishq;;;;;;16:::The Vested Interest;;;;;;12:::Bucket Feet;;;;;;19:::Elle;;;;;;100:::Gucci;;;;;;101:::eternal love;;;;;;102:::Calvin Klein;;;;;;17:::Polo;;;;;;18:::Rolex" 
+                                        data-subdets='[{"sub_id":"8","sub_name":"Party Dress","min":250,"max":299,"brands":"8:::Lucky Brand;;;;;;10:::Victoria s Secret;;;;;;11:::Dior"},{"sub_id":"9","sub_name":"Women Secret","min":12,"max":25,"brands":"10:::Victoria s Secret;;;;;;13:::Priscess Purse;;;;;;14:::En or;;;;;;15:::Jlo"},{"sub_id":"10","sub_name":"Sleeping Dress","min":13,"max":180,"brands":"10:::Victoria s Secret;;;;;;11:::Dior;;;;;;14:::En or;;;;;;15:::Jlo"},{"sub_id":"11","sub_name":"Beauty & Health","min":7,"max":8999,"brands":"8:::Lucky Brand;;;;;;9:::The Crystal Bride"},{"sub_id":"34","sub_name":"Bridal Attire","min":350,"max":350,"brands":"6:::Brighton;;;;;;7:::Tanishq;;;;;;9:::The Crystal Bride;;;;;;13:::Priscess Purse"},{"sub_id":"35","sub_name":"Formal Dress","min":150,"max":280,"brands":"8:::Lucky Brand;;;;;;11:::Dior;;;;;;15:::Jlo;;;;;;16:::The Vested Interest"},{"sub_id":"36","sub_name":"Women s Shoe","min":49,"max":55,"brands":"11:::Dior;;;;;;12:::Bucket Feet;;;;;;14:::En or;;;;;;15:::Jlo;;;;;;19:::Elle"},{"sub_id":"37","sub_name":"Fragrance World","min":160,"max":500,"brands":"7:::Tanishq;;;;;;10:::Victoria s Secret;;;;;;11:::Dior;;;;;;14:::En or;;;;;;15:::Jlo;;;;;;100:::Gucci;;;;;;101:::eternal love;;;;;;102:::Calvin Klein"},{"sub_id":"39","sub_name":"Women s Time Zone","min":125,"max":125,"brands":"15:::Jlo;;;;;;16:::The Vested Interest;;;;;;17:::Polo;;;;;;18:::Rolex;;;;;;19:::Elle"},{"sub_id":"40","sub_name":"Casual wear","min":130,"max":130,"brands":"7:::Tanishq;;;;;;8:::Lucky Brand;;;;;;15:::Jlo;;;;;;17:::Polo"}]'>
+                                            Women fashion                        </option>
+                                                <option value="5" 
+                            data-cat="5" 
+                                data-min="15" 
+                                   data-max="799" 
+                                    data-brands="22:::Aigner;;;;;;25:::Hudson;;;;;;26:::Omega;;;;;;27:::Breitling;;;;;;30:::Giorgio Armani;;;;;;17:::Polo;;;;;;23:::Adidas;;;;;;24:::Asics;;;;;;33:::Cognac;;;;;;35:::Nike;;;;;;20:::Baume & Mercier;;;;;;21:::Pepe Jeans;;;;;;31:::Castillo;;;;;;37:::Puma;;;;;;18:::Rolex;;;;;;29:::Axe;;;;;;34:::Project Vision;;;;;;63:::Apple" 
+                                        data-subdets='[{"sub_id":"27","sub_name":"Formal Dress","min":112,"max":120,"brands":"22:::Aigner;;;;;;25:::Hudson;;;;;;26:::Omega;;;;;;27:::Breitling;;;;;;30:::Giorgio Armani"},{"sub_id":"28","sub_name":"Men s shoe","min":75,"max":135,"brands":"17:::Polo;;;;;;23:::Adidas;;;;;;24:::Asics;;;;;;33:::Cognac;;;;;;35:::Nike"},{"sub_id":"29","sub_name":"Casual Dress","min":15,"max":45,"brands":"20:::Baume & Mercier;;;;;;21:::Pepe Jeans;;;;;;23:::Adidas;;;;;;31:::Castillo;;;;;;37:::Puma"},{"sub_id":"30","sub_name":"Men Watch","min":685,"max":799,"brands":"17:::Polo;;;;;;18:::Rolex;;;;;;23:::Adidas;;;;;;29:::Axe;;;;;;31:::Castillo;;;;;;34:::Project Vision;;;;;;63:::Apple"}]'>
+                                            Men fashion                        </option>
+                                                <option value="16" 
+                            data-cat="16" 
+                                data-min="0" 
+                                   data-max="0" 
+                                    data-brands="" 
+                                        data-subdets='[]'>
+                                            Example category 1                        </option>
+                                                <option value="17" 
+                            data-cat="17" 
+                                data-min="0" 
+                                   data-max="0" 
+                                    data-brands="" 
+                                        data-subdets='[]'>
+                                            Example category 2                        </option>
+                                                <option value="18" 
+                            data-cat="18" 
+                                data-min="0" 
+                                   data-max="0" 
+                                    data-brands="" 
+                                        data-subdets='[]'>
+                                            Example category 3                        </option>
+                                                <option value="19" 
+                            data-cat="19" 
+                                data-min="0" 
+                                   data-max="0" 
+                                    data-brands="" 
+                                        data-subdets='[]'>
+                                            Example category 4                        </option>
+                                                <option value="20" 
+                            data-cat="20" 
+                                data-min="0" 
+                                   data-max="0" 
+                                    data-brands="" 
+                                        data-subdets='[]'>
+                                            Example Digital                        </option>
+                                                <option value="12" 
+                            data-cat="12" 
+                                data-min="38" 
+                                   data-max="38" 
+                                    data-brands="" 
+                                        data-subdets='[{"sub_id":"64","sub_name":"HTML","min":0,"max":0,"brands":""},{"sub_id":"65","sub_name":"CSS","min":0,"max":0,"brands":""},{"sub_id":"66","sub_name":"php","min":38,"max":38,"brands":""},{"sub_id":"67","sub_name":"wordpress","min":0,"max":0,"brands":""}]'>
+                                            Web Development                        </option>
+                                                <option value="13" 
+                            data-cat="13" 
+                                data-min="20" 
+                                   data-max="26" 
+                                    data-brands="" 
+                                        data-subdets='[{"sub_id":"72","sub_name":"Logo design","min":0,"max":0,"brands":""},{"sub_id":"73","sub_name":"3D Design","min":20,"max":20,"brands":""},{"sub_id":"74","sub_name":"Web element","min":0,"max":0,"brands":""},{"sub_id":"75","sub_name":"Printing solution","min":26,"max":26,"brands":""}]'>
+                                            Graphics design                        </option>
+                                            </select>
+                </div>
+                <div class="col-md-12 search_sub">
+                    <select class="selectpicker header-search-select" data-live-search="true" name="sub_category" data-toggle="tooltip" title="Select">
+                        <option value="0" >All Sub Categories</option>
+                    </select>
+                </div>
+                                <div class="col-md-12 search_brands">
+                    <select class="selectpicker header-search-select" data-live-search="true" name="brand" data-toggle="tooltip" title="Select">
+                        <option value="0" >All Brands</option>
+                    </select>
+                </div>
+                            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="widget widget-filter-price" style="padding: 2px 20px;height: 40px;">                
+                        <div id="slider-range"></div>
+                        <input type="text" style="position: absolute; width:75%; text-align:center;margin-top: -30px;border: none;" id="amount" disabled />
+                        <input type="hidden" name="price" id="rangeaa" />
+                        <input type="hidden" id="univ_max" value="4800000.00">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                <input class="form-control" type="text" name="query" placeholder="What Are You Looking For?">
+                </div>
+                <div class="col-md-12">
+                    <button class="btn btn-theme btn-block" style="padding:10px 20px;">
+                        <span class="fa fa-search" aria-hidden="true"></span>
+                        <span class=""> Search </span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    function set_search_by_cat(now){
+        var cat 		= $(now).data('cat');
+        var min 		= Number($(now).find(':selected').data('min'));
+        var max 		= Number($(now).find(':selected').data('max'));
+        var brands 		= $(now).find(':selected').data('brands');
+        var subdets 	= $(now).find(':selected').data('subdets');
+                                
+        brands = brands.split(';;;;;;');
+        var select_brand_options = '';
+        for(var i=0, len=brands.length; i < len; i++){
+            brand = brands[i].split(':::');
+            if(brand.length == 2){		
+                select_brand_options = select_brand_options
+                                       +'        <option value="'+brand[0]+'" >'+brand[1]+'</option>'
+            }
+        }
+        
+        var select_brand_html =  '<select class="selectpicker input-price " name="brand" data-live-search="true" '
+                                +'	data-width="100%" data-toggle="tooltip" title="Select" >'
+                                +'		<option value="0">All Brands</option>'
+                                +		select_brand_options
+                                +'</select>';
+        $('.search_brands').html(select_brand_html);
+        
+        
+        var select_sub_options = '';
+        $.each(subdets, function (i, v) {
+            var min = v.min;
+            var max = v.max;
+            var brands = v.brands;
+            var sub_id = v.sub_id;
+            var sub_name = v.sub_name;	
+			select_sub_options = select_sub_options
+								   +'        <option value="'+sub_id+'" data-subcat="'+sub_id+'"  data-min="'+min+'"  data-max="'+max+'" data-brands="'+brands+'" >'+sub_name+'</option>';
+        });
+        
+        var select_sub_html =  '<select class="selectpicker input-price " name="sub_category" data-live-search="true" '
+                                +'	data-width="100%" data-toggle="tooltip" title="Select" onchange="set_search_by_scat(this)" >'
+                                +'		<option value="0">All Sub Categories</option>'
+                                +		select_sub_options
+                                +'</select>';
+        $('.search_sub').html(select_sub_html);
+        
+        $('.selectpicker').selectpicker();
+        set_price_slider(min,max,min,max);
+        
+    }
+    
+    
+    function set_search_by_scat(now){
+        var scat 		= $(now).data('subcat');
+        var min 		= Number($(now).find(':selected').data('min'));
+        var max 		= Number($(now).find(':selected').data('max'));
+        var brands 		= $(now).find(':selected').data('brands');						
+        
+        brands = brands.split(';;;;;;');
+        var select_brand_options = '';
+        for(var i=0, len=brands.length; i < len; i++){
+            brand = brands[i].split(':::');
+            if(brand.length == 2){		
+                select_brand_options = select_brand_options
+                                       +'        <option value="'+brand[0]+'" >'+brand[1]+'</option>'
+            }
+        }
+        
+        var select_brand_html =  '<select class="selectpicker input-price " name="brand" data-live-search="true" '
+                                +'	data-width="100%" data-toggle="tooltip" title="Select" >'
+                                +'		<option value="0">All Brands</option>'
+                                +		select_brand_options
+                                +'</select>';
+        $('.search_brands').html(select_brand_html);
+        
+        $('.selectpicker').selectpicker();
+        set_price_slider(min,max,min,max);
+        
+    }
+    
+    function set_price_slider(min,max,univ_min,univ_max){ 
+        var priceSliderRange = $('#slider-range');
+        if ($.ui) {
+            /**/
+            if ($(priceSliderRange).length) {
+                $(priceSliderRange).slider({
+                    range: true,
+                    min: univ_min,
+                    max: univ_max,
+                    values: [min, max],
+                    slide: function (event, ui){
+                        $("#amount").val(currency + (Number(ui.values[0])*exchange) + " - " + currency + (Number(ui.values[1])*exchange));
+                        $("#rangeaa").val(ui.values[0] + ";" + ui.values[1]);
+                    },
+                    stop: function( event, ui ) {
+                        do_product_search();
+                    }
+                });
+                $("#amount").val(
+                    currency + Number($("#slider-range").slider("values", 0))*exchange + " - " + currency + Number($("#slider-range").slider("values", 1))*exchange
+                );
+                $("#rangeaa").val($("#slider-range").slider("values", 0) + ";" + $("#slider-range").slider("values", 1));
+            }
+            
+        }
+    }
+    
+    $(document).ready(function(e) {
+        var univ_max = $('#univ_max').val(); 
+        set_price_slider(0,univ_max,0,univ_max);
+        setTimeout(function(){ $('.selectpicker').selectpicker(); }, 3000);
+    });
+</script><div class="col-md-12">
+    <div class="widget widget-tabs">
+        <div class="widget-content">
+            <ul id="tabs" class="nav nav-justified">
+                <li>
+                    <a href="#tab-s1" data-toggle="tab">
+                        Popular                    </a>
+                </li>
+                <li class="active">
+                    <a href="#tab-s2" data-toggle="tab">
+                        Latest                    </a>
+                </li>
+                <li>
+                    <a href="#tab-s3" data-toggle="tab">
+                        Deals                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <!-- tab 1 -->
+                <div class="tab-pane fade" id="tab-s1">
+                    <div class="product-list">
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/17/Formal-Women-Blazers">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_17_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/17/Formal-Women-Blazers">
+                                        Formal Women Blazers                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$150.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/98/Classified-php-script">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_98_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/98/Classified-php-script">
+                                        Classified php script                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$38.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/12/Party-Dress">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_12_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/12/Party-Dress">
+                                        Party Dress                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$299.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/77/Super-luxury-Car">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_77_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/77/Super-luxury-Car">
+                                        Super luxury Car                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="5.00"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star active"></span>
+                                                                                    <span class="star active"></span>
+                                                                                    <span class="star active"></span>
+                                                                                    <span class="star active"></span>
+                                                                                    <span class="star active"></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$68,599.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+    
+                <!-- tab 2 -->
+                <div class="tab-pane fade in active" id="tab-s2">
+                    <div class="product-list">
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/100/3D-Impact">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_100_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/100/3D-Impact">
+                                        3D Impact                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$20.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>	
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/99/Colored-Solution">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_99_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/99/Colored-Solution">
+                                        Colored Solution                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$26.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>	
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/98/Classified-php-script">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_98_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/98/Classified-php-script">
+                                        Classified php script                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$38.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>	
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/89/Super-Racing-Bike">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_89_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/89/Super-Racing-Bike">
+                                        Super Racing Bike                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                     
+                                        <ins>$40,500.00 </ins> 
+                                        <del>$45,000.00</del>
+                                                                    </div>
+                            </div>
+                        </div>	
+                                            </div>
+                </div>
+                <!-- tab 3 -->
+                <div class="tab-pane fade" id="tab-s3">
+                    <div class="product-list">
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/99/Colored-Solution">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_99_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/99/Colored-Solution">
+                                        Colored Solution                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$26.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/82/Gulfstream-G550-Air-Jet">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_82_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/82/Gulfstream-G550-Air-Jet">
+                                        Gulfstream G550 Air Jet                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$4,800,000.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/80/Hughes-UR-Path-Helicopter">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_80_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/80/Hughes-UR-Path-Helicopter">
+                                        Hughes UR-Path Helicopter                                    </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="0"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                                    <span class="star "></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$775,000.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>
+                                                <div class="media">
+                            <a class="pull-left media-link" href="http://localhost/ecomx/index.php/home/product_view/78/Mercedes-Benz-SUV">
+                                <img class="media-object img-responsive" src="http://localhost/ecomx/uploads/product_image/product_78_1_thumb.jpg" alt="">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="http://localhost/ecomx/index.php/home/product_view/78/Mercedes-Benz-SUV">
+                                        Mercedes Benz SUV                                     </a>
+                                </h4>
+                                <div class="rating">
+                                    <div class="rating ratings_show" data-original-title="5.00"	
+                                        data-toggle="tooltip" data-placement="left">
+                                                                                    <span class="star active"></span>
+                                                                                    <span class="star active"></span>
+                                                                                    <span class="star active"></span>
+                                                                                    <span class="star active"></span>
+                                                                                    <span class="star active"></span>
+                                                                            </div>
+                                </div>
+                                <div class="price">
+                                                                            <ins>$140,825.00</ins> 
+                                                                    </div>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    </div>
+</aside>            <!-- /SIDEBAR -->
+            <!-- CONTENT -->
+            <div class="col-md-9 content" id="content">
+                <!-- /shop-sorting -->
+                <div id="page_content">
+                
+                </div>
+            </div>
+            <!-- /CONTENT -->
+        </div>
+    </div>
+</section>
+<!-- /PAGE WITH SIDEBAR -->
+<script>
+	function product_by_type(type){	
+		var top = Number(200);
+		var loading_set = '<div style="text-align:center;width:100%;height:'+(top*2)+'px; position:relative;top:'+top+'px;"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></div>';
+		$("#page_content").html(loading_set);
+		$("#page_content").load("http://localhost/ecomx/index.php/home/product_by_type/"+type);
+	}
+	$(document).ready(function(){
+		var product_type=$('#type').val();
+		product_by_type(product_type);
+    });
+</script>                
+            </div>
+            <!-- /CONTENT AREA -->
+
+            <!-- FOOTER -->
+			<footer class="footer1">
+	<div class="footer1-widgets">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-sm col-xs-12">
+					<div class="widget">
+						<a href="http://localhost/ecomx/">
+                          	<img class="img-responsive" src="http://localhost/ecomx/uploads/logo_image/logo_76.png" alt="">
+						</a>
+						<p><p>Your Footer Text</p></p>
+						<form action="http://localhost/ecomx/index.php/home/subscribe" class="" method="post" accept-charset="utf-8">
+<input type="hidden" name="csrf_test_name" value="9fbcc34e46ccd9355cd26ce152f59b0b" style="display:none;" />
+    
+							<div class="form-group row">
+                            	<div class="col-md-12">
+									<input type="text" class="form-control col-md-8" name="email" id="subscr" placeholder="Email Address">
+                                	<span class="btn btn-subcribe subscriber enterer">Subscribe</span>
+                                </div>
+							</div>                
+					   </form> 
+					</div>
+				</div>
+				<div class="col-md-3 hidden-xs hidden-sm">
+					<div class="widget widget-categories">
+						<h4 class="widget-title">Categories</h4>
+						<ul>
+															<li>
+									<a href="http://localhost/ecomx/index.php/home/category/1">
+										Automobile									</a>
+								</li>
+															<li>
+									<a href="http://localhost/ecomx/index.php/home/category/4">
+										Women fashion									</a>
+								</li>
+															<li>
+									<a href="http://localhost/ecomx/index.php/home/category/5">
+										Men fashion									</a>
+								</li>
+															<li>
+									<a href="http://localhost/ecomx/index.php/home/category/12">
+										Web Development									</a>
+								</li>
+													</ul>
+					</div>
+				</div>
+				<div class="col-md-3  col-sm-12 hidden-xs">
+					<div class="widget widget-categories">
+						<h4 class="widget-title">Useful Links</h4>
+						<ul>
+							<li>
+								<a href="http://localhost/ecomx/index.php/home/">Home								</a>
+							</li>
+							<li>
+								<a href="http://localhost/ecomx/index.php/home/category/0/0-0">All Products								</a>
+							</li>
+							<li>
+								<a href="http://localhost/ecomx/index.php/home/others_product/featured">Featured Products								</a>
+							</li>
+							<li>
+								<a href="http://localhost/ecomx/index.php/home/contact/">Contact								</a>
+							</li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/page/new_page1">
+                                    new page1                                </a>
+                            </li>
+                                                        <li>
+                                <a href="http://localhost/ecomx/index.php/home/page/Documentation">
+                                    Documentation                                </a>
+                            </li>
+                            						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 hidden-xs hidden-sm">
+					<div class="widget contact">
+						<h4 class="widget-title">Contact Us</h4>
+						<div class="media-list">
+							<div class="media">
+								<i class="pull-left fa fa-home"></i>
+								<div class="media-body">
+									<strong>Address:</strong>
+                                    <br>
+									Demo Address								</div>
+							</div>
+							<div class="media">
+								<i class="pull-left fa fa-phone"></i>
+								<div class="media-body">
+									<strong>Phone:</strong>
+                                    <br>
+									00-000-00000								</div>
+							</div>
+							<div class="media">
+								<i class="pull-left fa fa-globe"></i>
+								<div class="media-body">
+									<strong>Website:</strong>
+                                    <br>
+									<a href="https://www.yoursite.com">www.yoursite.com</a>
+								</div>
+							</div>
+							<div class="media">
+								<i class="pull-left fa fa-envelope-o"></i>
+								<div class="media-body">
+									<strong>Email:</strong>
+                                    <br>
+									<a href="mailto:yourmail@mail.com">
+										yourmail@mail.com									</a>
+								</div>
+							</div>
+							<ul class="social-icons">
+								<li><a href="http://facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="http://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="http://google.com/" class="google"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="http://pinterest.com/" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+								<li><a href="http://youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="http://skype.com/" class="skype"><i class="fa fa-skype"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="footer1-meta">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-xs-12">
+					<div class="copyright">
+						2016 &copy; 
+						All Rights Reserved @ 
+						<a href="http://localhost/ecomx/">
+													</a> 
+							| 
+						<a href="http://localhost/ecomx/index.php/home/legal/terms_conditions" class="link">
+							Terms & Condition						</a> 
+							| 
+						<a href="http://localhost/ecomx/index.php/home/legal/privacy_policy" class="link">
+							Privacy Policy						</a>
+					</div>
+				</div>
+				<div class="col-md-4 hidden-xs hidden-sm">
+					<div class="payments" style="font-size: 30px;">
+						<ul>
+							<li><i class="fa fa-cc-paypal cards"></i></li>
+							<li><i class="fa fa-cc-visa cards"></i></li>
+							<li><i class="fa fa-cc-mastercard cards"></i></li>
+							<li><i class="fa fa-cc-discover cards"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<style>
+.link:hover{
+	text-decoration:underline;
+}
+</style> 
+            <!-- /FOOTER -->
+
+            <div id="to-top" class="to-top"><i class="fa fa-angle-up"></i></div>
+
+        </div>
+        <!-- /WRAPPER -->
+        <script>
+	var base_url = "http://localhost/ecomx/"; 
+	var product_added = "Product Added To Cart";
+	var added_to_cart = "Added To Cart";
+	var quantity_exceeds = "Product Quantity Exceed Availability!";
+	var product_already = "Product Already Added To Cart!";
+	var wishlist_add = "Product Added To Wishlist";
+	var wishlist_add1 = "Wished";
+	var wishlist_adding = "Wishing..";
+	var wishlist_remove = "Product Removed From Wishlist";
+	var compare_add = "Product Added To Compared";
+	var compare_add1 = "Compared";
+	var compare_adding = "Working..";
+	var compare_remove = "Product Removed From Compare";
+	var compare_cat_full = "Compare Category Full";
+	var compare_already = "Product Already Added To Compare";
+	var rated_success = "Product Rated Successfully";
+	var rated_fail = "Product Rating Failed";
+	var rated_already = "You Already Rated This Product";
+	var working = "Working..";
+	var subscribe_already = "You Already Subscribed";
+	var subscribe_success = "You Subscribed Successfully";
+	var subscribe_sess = "You Already Subscribed Thrice From This Browser";
+	var logging = "Logging In..";
+	var login_success = "You Logged In Successfully";
+	var login_fail = "Login Failed! Try Again!";
+	var logup_success = "You Registered Successfully";
+	var logup_fail = "Registration Failed! Try Again!";
+	var logging = "Logging In..";
+	var submitting = "Submitting..";
+	var email_sent = "Email Sent Successfully";
+	var email_noex = "Email Does Not Exist!";
+	var email_fail = "Email Sending Failed! Try Again";
+	var logging = "Logging In";		
+	var cart_adding = "Adding To Cart..";	
+	var cart_product_removed = "Product Removed From Cart";	
+	var required = "The Field Is Required";
+	var mbn = "Must Be A Number";
+	var mbe = "Must Be A Valid Email Address";
+	var valid_email = "Enter A Valid Email Address";
+	var applying = "Applying..";
+	var coupon_not_valid = "Coupon Not Valid";
+	var coupon_discount_successful = "Coupon Discount Successful";
+	var currency = "$";
+	var exchange = Number(1);
+
+	var $j = jQuery.noConflict();
+	var $ = jQuery.noConflict();
+
+	function product_listing_defaults(){
+
+		reload_header_cart();
+		 $j('.ajax-to-cart').click(function(e){
+			e.preventDefault();
+	        var product = $(this).data('pid');
+	        var elm_type = $(this).data('type');
+	        var button = $(this);
+			var alread = button.html();
+			var type = 'pp';
+	        if(button.closest('.row').find('.cart_quantity').length){
+	            quantity = button.closest('.margin-bottom-40').find('.cart_quantity').val();
+	        }
+			
+	        if($('#pnopoi').length){
+	        	type = 'pp';
+	            var form = button.closest('form');
+				var formdata = false;
+				if (window.FormData){
+					formdata = new FormData(form[0]);
+				}
+	            var option = formdata ? formdata : form.serialize();
+	        } else {
+	        	type = 'other';
+	        	var form = $('#cart_form_singl');
+				var formdata = false;
+				if (window.FormData){
+					formdata = new FormData(form[0]);
+				}
+	        	var option = formdata ? formdata : form.serialize();
+	        }
+			
+	        $.ajax({
+	            url 		: base_url+'index.php/home/cart/add/'+product+'/'+type,
+				type 		: 'POST', // form submit method get/post
+				dataType 	: 'html', // request type html/json/xml
+				data 		: option, // serialize form data 
+				cache       : false,
+				contentType : false,
+				processData : false,
+	            beforeSend: function() {
+					if(elm_type !== 'icon'){
+			 			$j(this).addClass('btn--wait');
+					}
+	            },
+	            success: function(data) {
+					$j('.ajax-to-cart').removeClass('btn--wait');
+	                if(data == 'added'){
+						$('.add_to_cart').each(function(index, element) {
+							if( $('body .add_to_cart').length ){
+								$('body .add_to_cart').each(function() {
+									if($(this).data('pid') == product){
+										var h = $(this);
+										if(h.data('type') == 'text'){
+											h.html('<i class="fa fa-shopping-cart"></i>'+added_to_cart).fadeIn();				
+										} else if(h.data('type') == 'icon'){
+											h.html('<i style="color:#AB00FF" class="fa fa-shopping-cart"></i>').fadeIn();					
+										}
+									}
+								});
+							}
+	                    });
+						reload_header_cart();
+						//growl
+	                    //ajax_load(base_url+'index.php/home/cart/added_list/','added_list');
+						notify(product_added,'success','bottom','right');
+						//sound('successful_cart');
+	                } else if (data == 'shortage'){
+	                    //button.html(alread);
+						notify(quantity_exceeds,'warning','bottom','right');
+						//sound('cart_shortage');
+	                } else if (data == 'already'){
+	                    //button.html(alread);
+						notify(product_already,'warning','bottom','right');
+						//sound('already_cart');
+	                }
+	            },
+	            error: function(e) {
+	                console.log(e)
+	            }
+	        });
+			
+		});
+		
+
+		
+		 $j('.ajax-to-wishlist').click(function(e){
+			e.preventDefault();
+			//$j('#modalAddToWishlist').modal("toggle");		
+			//$j('#modalAddToWishlist .loading').show();
+			//$j('#modalAddToWishlist .success').hide();	
+	        var state = check_login_stat('state');
+			var product = $(this).data('pid');
+			var button = $(this);
+			
+	        state.success(function (data) {
+	            if(data == 'hypass'){
+					$.ajax({
+						url: base_url+'index.php/home/wishlist/add/'+product,
+						beforeSend: function() {
+						},
+						success: function(data) {
+							if(data == ''){
+								//$j('#modalAddToWishlist .loading').hide();
+								//$j('#modalAddToWishlist .success').show();
+								notify(wishlist_add,'info','bottom','right');
+							} else {
+								notify(wishlist_already,'warning','bottom','right');
+							}
+						},
+						error: function(e) {
+							console.log(e)
+						}
+					});
+	            } else {
+					//$j('#modalAddToWishlist .loading').hide();
+					//$j('#modalAddToWishlist').modal("toggle");
+					signin();
+					
+				}
+	        });	
+			
+		});	
+		
+	}
+
+
+	function reload_header_cart(){
+	    $.getJSON(base_url+"index.php/home/cart/whole_list", function(result){
+			var total = 0;
+			var whole_list = '';
+			var count = Object.keys(result).length;
+	        $.each(result, function(i, field){
+				total += Number(field['subtotal'])*exchange;		
+
+      			whole_list +=   "<div class=\"media\" data-rowid=\""+field['rowid']+"\">"
+						        +"    <a class=\"pull-left\" href=\""+field['link']+"\"><img class=\"media-object item-image\" src=\""+field['image']+"\" alt=\"\"></a>"
+						        +"    <p class=\"pull-right item-price\">"+currency+(Number(field['price'])*exchange*Number(field['qty'])).toFixed(2)+" <span class=\"remove_one\"><i class=\"fa fa-close\"></i></span></p>"
+						        +"    <div class=\"media-body\">"
+						        +"        <h4 class=\"media-heading item-title\"><a href=\"#\">"+field['qty']+" X "+field['name']+"</a></h4>"
+						        +"    </div>"
+						        +"</div>";
+				/*
+				whole_list_o += "<li class='shopping-cart__item'>"
+							+"	  <div class=\"shopping-cart__item__image pull-left\"><a href=\""+field['link']+"\">"
+							+"			<img src=\""+field['image']+"\" height=\"60px\" width=\"100px\ alt=\"\"/></a></div>"
+							+"	  <div class=\"shopping-cart__item__info\">"
+							+"		<div class=\"shopping-cart__item__info__title\">"
+							+"		  <h2 class=\"text-uppercase\"><a href=\"\">"+field['name']+"</a></h2>"
+							+"		</div>"
+							+"		<div class=\"shopping-cart__item__info__price\">"+currency+field['price']+"</div>"
+							+"		<div class=\"shopping-cart__item__info__qty\">Qty:"+field['qty']+"</div>"
+							+"		<div class=\"shopping-cart__item__info__delete\"><a href=\"#\"></a></div>"
+							+"	  </div>"
+							+"	</li>"
+				*/
+				
+	        });
+			$('.cart_num').html(count);
+			$('.header__cart__indicator').html(currency+total.toFixed(2));
+			$('.shopping-cart__top').html('Your Cart('+count+')');
+			$('.top_carted_list').html(whole_list);
+			$('.shopping-cart__total').html(currency+total.toFixed(2));	
+	    });
+	}
+
+
+	$(document).ready(function () {
+		$.ajax({url: 'http://localhost/ecomx/index.php/home/surfer_info'});
+	});
+
+		
+</script>
+
+<div id="popup-6" class="activeModal" style="z-index: 999990;">
+    <div class="window window1">
+        <div class="window_set row" >
+        
+        </div>
+    </div>
+</div>
+<div id="popup-7" class="activeModal">
+    <div class="window window1">
+        <div class="window_set row" >
+        
+        </div>
+    </div>
+</div>
+<div class="foiop" style="display:none;">
+<span class="openactiveModal-7 manualLabel" id="qoiqoi" data-ajax=""></span>
+<span class="openactiveModal-6 manualLabel" id="qoiqois" data-ajax=""></span>
+</div>
+<!-- ========== END COPYING HERE ========== -->
+
+        <style>
+		.box{
+			overflow: hidden;
+			position:relative;
+		}
+		.box .box-img img{
+			width:100%;
+			height: auto;
+		}
+		.box .box-img:before{
+			content: "";
+			position: absolute;
+			top: 5%;
+			left: 4%;
+			width: 92%;
+			height: 90%;
+			opacity: 0;
+			z-index:1;
+			transform: scale(0,1);
+			border-top: 1px solid #fff;
+			border-bottom: 1px solid #fff;
+			transition:all 0.90s ease 0s;
+		}
+		.box .box-img:after{
+			content: "";
+			position: absolute;
+			width: 92%;
+			height: 90%;
+			top: 5%;
+			left: 4%;
+			opacity: 0;
+			transform: scale(1,0);
+			border-left: 1px solid #fff;
+			border-right: 1px solid #fff;
+			transition:all 0.90s ease 0s;
+		}
+		.box:hover .box-img:before,
+		.box:hover .box-img:after{
+			opacity:1;
+			transform: scale(1);
+		}
+		.box .box-img .over-layer{
+			position: absolute;
+			display:block;
+			width:100%;
+			height:100%;
+			opacity:0;
+			transition:all 0.90s ease 0s;
+		}
+		.box:hover .over-layer{
+			opacity:1;
+		}
+		.box .over-layer ul{
+			list-style: none;
+			position: relative;
+			top: 30%;
+			padding: 0;
+			text-align: center;
+			z-index: 1;
+			transition:all 0.6s ease 0s;
+		}
+		.box:hover .over-layer ul{
+			top: 30%;
+		}
+		.box .over-layer ul li{
+			padding:5px;
+		}
+		
+		@media only screen and (max-width: 990px) {
+			.box{
+				margin-bottom:20px;
+			}
+		}
+		.wp-block.product .price {
+			padding:4px 0;
+			font-size: 16px !important;
+			font-weight: 300 !important;
+			color: #272526 !important;
+		}
+		h1, h2, h3, h4, h5, h6 {
+    		font-weight: 400 !important;
+		}
+		.alert{
+			z-index:999999999 !important;
+		}
+		.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+			width: 100%;
+		}
+		</style>
+        
+<script type="text/javascript">
+	
+ 
+	//google.maps.event.addDomListener(window, 'load', initialize);
+	/**/
+	
+	function tooltip_set(){
+		$('[data-toggle="tooltip"]').tooltip(); 
+	} 
+	
+	function isValidEmailAddress(emailAddress) {
+		var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
+		return pattern.test(emailAddress);
+	}
+	
+	$(document).ready(function(){ 
+	
+		product_listing_defaults();
+		tooltip_set();
+		//opc_color();
+		//setTimeout(function(){ slide_color(); }, 1000);
+			
+		
+		window.addEventListener("keydown", checkKeyPressed, false);
+		 
+		function checkKeyPressed(e) {
+			if (e.keyCode == "13") {
+				$(":focus").each(function() {
+					event.preventDefault();
+					$(this).closest('form').find('.enterer').click();
+				});
+			}
+		}
+		
+		
+		/*
+		if($('#location').length > 0){
+			//Autocomplete variables
+			var input = document.getElementById('location');
+			var searchform = document.getElementById('form1');
+			var place;
+			var autocomplete = new google.maps.places.Autocomplete(input);
+			
+			
+			//Google Map variables
+			var map;
+			var marker;
+			
+			//Add listener to detect autocomplete selection
+			google.maps.event.addListener(autocomplete, 'place_changed', function () {
+				place = autocomplete.getPlace();
+				//console.log(place);
+			});
+			 
+			//Reset the inpout box on click
+			input.addEventListener('click', function(){
+				input.value = "";
+			});
+		}
+	 	*/
+	 
+		
+	});
+
+	function slide_color(){
+		var rgb = $('.base').css('background-color');
+		$('.active-bg-base').css('background-color',rgb);	
+	}
+	
+	function opc_color(){
+		var rgb = $('.base').css('background-color');
+		var new_arr = rgb.split(')');
+		var rgba = new_arr[0]+',.6)';
+		$('.base_opc').css('background-color',rgba);	
+	}
+
+	function quick_view(urlh){
+		$('#qoiqoi').data('ajax',urlh);
+		$('#qoiqoi').click();
+	}
+	function do_compare(id,e){
+		var product = id;
+		e = e || window.event;
+		e = e.target || e.srcElement;
+		var button = $(e);
+		var alread 		= button.html();
+		if(button.is("i")){
+			var alread_classes = button.attr('class');	
+		}		
+		$.ajax({
+			url: base_url+'index.php/home/compare/add/'+product,
+			beforeSend: function() {
+				if(button.is("i")){
+					button.attr('class','fa fa-spinner fa-spin fa-fw');	
+				} else {
+					button.find('i').attr('class','fa fa-spinner fa-spin fa-fw');	
+				}
+			},
+			success: function(data) {
+				if(data == 'cat_full'){
+					notify(compare_cat_full,'warning','bottom','right');
+				} else if (data == 'already'){
+					notify(compare_already,'warning','bottom','right');
+				} else {
+					$.ajax({
+						url: base_url+'index.php/home/compare/num/', 
+						success: function(result){
+							$("#compare_tooltip").attr('data-original-title',result);
+							$("#compare_num").html(result);
+							$("#compare_tooltip").tooltip(); 
+						}
+					});
+					notify(compare_add,'info','bottom','right');
+				}
+				if(button.is("i")){
+					button.attr('class',alread_classes);	
+				} else {
+					button.html(alread);	
+				}
+			},
+			error: function(e) {
+				console.log(e)
+			}
+		});
+	}
+	
+	function to_wishlist(id,e){	
+		e = e || window.event;
+		e = e.target || e.srcElement;
+		var state 		= check_login_stat('state');
+		var product 	= id;
+		var button 		= $(e);
+		var alread 		= button.html();
+		if(button.is("i")){
+			var alread_classes = button.attr('class');	
+		}		
+		state.success(function (data) {
+			if(data == 'hypass'){
+				$.ajax({
+					url: base_url+'index.php/home/wishlist/add/'+product,
+					beforeSend: function() {
+						if(button.is("i")){
+							button.attr('class','fa fa-spinner fa-spin fa-fw');	
+						} else {
+							button.find('i').attr('class','fa fa-spinner fa-spin fa-fw');	
+						}	
+					},
+					success: function(data) {
+						if(data == ''){
+							notify(wishlist_add,'info','bottom','right');
+						} else {
+							notify(wishlist_already,'warning','bottom','right');
+						}
+						if(button.is("i")){
+							button.attr('class',alread_classes);	
+						} else {
+							button.html(alread);	
+						}
+					},
+					error: function(e) {
+						console.log(e)
+					}
+				});
+			} else {
+				signin();
+			}
+		});
+	}
+	
+	function to_cart(id,e){	
+		var product = id;		
+		e = e || window.event;
+		e = e.target || e.srcElement;
+		var elm_type = $(e).data('type');
+		var button = $(e);
+		var alread = button.html();
+		if(button.is("i")){
+			var alread_classes = button.attr('class');	
+		}
+		var type = 'pp';
+		if(button.closest('.row').find('.cart_quantity').length){
+			quantity = button.closest('.margin-bottom-40').find('.cart_quantity').val();
+		}
+		
+		if($('#pnopoi').length){
+			type = 'pp';
+			var form = button.closest('form');
+			var formdata = false;
+			if (window.FormData){
+				formdata = new FormData(form[0]);
+			}
+			var option = formdata ? formdata : form.serialize();
+		} else {
+			type = 'other';
+			var form = $('#cart_form_singl');
+			var formdata = false;
+			if (window.FormData){
+				formdata = new FormData(form[0]);
+			}
+			var option = formdata ? formdata : form.serialize();
+		}
+		
+		$.ajax({
+			url 		: base_url+'index.php/home/cart/add/'+product+'/'+type,
+			type 		: 'POST', // form submit method get/post
+			dataType 	: 'html', // request type html/json/xml
+			data 		: option, // serialize form data 
+			cache       : false,
+			contentType : false,
+			processData : false,
+			beforeSend: function() {
+				if(button.is("i")){
+					button.attr('class','fa fa-spinner fa-spin fa-fw');	
+				} else {
+					button.find('i').attr('class','fa fa-spinner fa-spin fa-fw');	
+				}			
+			},
+			success: function(data) {
+				$j('.ajax-to-cart').removeClass('btn--wait');
+				if(data == 'added'){
+					reload_header_cart();
+					notify(product_added,'success','bottom','right');
+					//sound('successful_cart');
+				} else if (data == 'shortage'){
+					notify(quantity_exceeds,'warning','bottom','right');
+					//sound('cart_shortage');
+				} else if (data == 'already'){
+					notify(product_already,'warning','bottom','right');
+					//sound('already_cart');
+				}
+				if(button.is("i")){
+					button.attr('class',alread_classes);	
+				} else {
+					button.html(alread);	
+				}	
+			},
+			error: function(e) {
+				console.log(e)
+			}
+		});
+	}
+	
+	function signin(carry){
+		$('#qoiqois').data('ajax','http://localhost/ecomx/index.php/home/login_set/login/modal/'+carry);
+		$('#qoiqois').click();
+	}
+	
+	
+	function set_select(){
+		$('.selectpicker').selectpicker();
+	}
+	$(document).ready(function() {
+		//set_select();
+		$('.drops').dropdown();
+	});
+	function check_login_stat(thing){
+		return $.ajax({
+			url: 'http://localhost/ecomx/index.php/home/check_login/'+thing
+		});
+	}	
+
+	
+	function reg(){
+		$('.regis_btn').click();
+	}
+	
+	function reload_page(){
+		var loc = location.href;
+		location.replace(loc);
+	}
+	
+	
+	function notify(message,type,from,align){		
+		$.notify({
+			// options
+			message: message 
+		},{
+			// settings
+			type: type,
+			placement: {
+				from: from,
+				align: align
+			}
+		});
+		
+	}
+	
+	function form_submit(form_id){
+		var form = $('#'+form_id);
+		var button = form.find('.submit_button');
+		var prv = button.html();
+		var ing = button.data('ing');
+		var success = button.data('success');
+		var unsuccessful = button.data('unsuccessful');
+		var redirect_click = button.data('redirectclick');
+		form.find('.summernotes').each(function() {
+			var now = $(this);
+			now.closest('div').find('.val').val(now.code());
+		});
+		
+		//var form = $(this);
+		var formdata = false;
+		if (window.FormData){
+			formdata = new FormData(form[0]);
+		}
+		
+	
+		$.ajax({
+			url: form.attr('action'), // form action url
+			type: 'POST', // form submit method get/post
+			dataType: 'html', // request type html/json/xml
+			data: formdata ? formdata : form.serialize(), // serialize form data 
+			cache       : false,
+			contentType : false,
+			processData : false,
+			beforeSend: function() {
+				button.html(ing); // change submit button text
+			},
+			success: function(data) {
+				var alls = data.split('#-#-#');
+				var part1 = alls[0];
+				var part2 = alls[1];
+				if(part1 == 'success'){
+					notify(success,'success','bottom','right');
+					if(part2 == ''){
+						$(redirect_click).click();
+					} else {
+						location.replace(part2);
+					}
+					form.find('input').val('');
+					form.find('textarea').val('');
+					form.find('textarea').html('');
+				} else {
+					var text = '<div>'+unsuccessful+'</div>'+part2;
+					notify(text,'warning','bottom','right');
+				}
+				button.html(prv);
+				
+			},
+			error: function(e) {
+				console.log(e)
+			}
+		});
+				
+	}
+	
+	function header_search_set(val){
+		if(val == 'product'){
+			$('.cat_select').show();
+		} else if(val == 'vendor'){
+			$('.cat_select').hide();
+		}
+	}
+	
+	function tes(val,e){
+		e = e || window.event;
+		e = e.target || e.srcElement;
+		$(e).css('background','red');	
+	}
+	
+	// Plugin invoke
+	function set_modal(){
+		
+		$("#popup-6").activeModals({
+			// Functionality
+			popupType: "delayed",
+			delayTime: 1000,
+			exitTopDistance: 40,
+			scrollTopDistance: 400,
+			setCookie: false,
+			cookieDays: 0,
+			cookieTriggerClass: "setCookie-1",
+			cookieName: "activeModal-1",
+	
+			// Overlay options
+			overlayBg: true,
+			overlayBgColor: "rgba(255, 255, 255, 0.721569)",
+			overlayTransition: "ease",
+			overlayTransitionSpeed: "0.4",
+	
+			// Background effects
+			bgEffect: "scaled",
+			blurBgRadius: "2px",
+			scaleBgValue: "1",
+	
+			// Window options
+			windowWidth: "530px",
+			windowHeight: "580px",
+			windowLocation: "center",
+			windowTransition: "fadeIn",
+			windowTransitionSpeed: "0.4",
+			windowTransitionEffect: "fadeIn",
+			windowShadowOffsetX: "0",
+			windowShadowOffsetY: "0",
+			windowShadowBlurRadius: "20px",
+			windowShadowSpreadRadius: "0",
+			windowShadowColor: "none",
+			windowBackground: "none",
+			windowRadius: "0px",
+			windowMargin: "10px",
+			windowPadding: "10px",
+	
+			// Close and reopen button
+			closeButton: "icon",
+			reopenClass: "openactiveModal-6",
+		});
+		$("#popup-7").activeModals({
+			// Functionality
+			popupType: "delayed",
+			delayTime: 1000,
+			exitTopDistance: 40,
+			scrollTopDistance: 400,
+			setCookie: false,
+			cookieDays: 0,
+			cookieTriggerClass: "setCookie-1",
+			cookieName: "activeModal-1",
+	
+			// Overlay options
+			overlayBg: true,
+			overlayBgColor: "rgba(255, 255, 255, 0.72)",
+			overlayTransition: "ease",
+			overlayTransitionSpeed: "0.4",
+	
+			// Background effects
+			bgEffect: "scaled",
+			blurBgRadius: "2px",
+			scaleBgValue: "1",
+	
+			// Window options
+			windowWidth: "1000px",
+			windowHeight: "600px",
+			windowLocation: "center",
+			windowTransition: "ease",
+			windowTransitionSpeed: "0.4",
+			windowTransitionEffect: "fadeIn",
+			windowShadowOffsetX: "0",
+			windowShadowOffsetY: "0",
+			windowShadowBlurRadius: "20px",
+			windowShadowSpreadRadius: "0",
+			windowShadowColor: "rgba(0,0,0,.8)",
+			windowBackground: "rgba(255,255,255,1)",
+			windowRadius: "0px",
+			windowMargin: "10px",
+			windowPadding: "30px",
+	
+			// Close and reopen button
+			closeButton: "icon",
+			reopenClass: "openactiveModal-7",
+		});	
+	}
+
+
+	$(document).ready(function () {
+		set_modal();	
+		
+		$('.window_set').on('click','.author_contact_submitter',function(event){
+			event.preventDefault();
+			var now = $(this);
+			var btntxt = now.html();
+			var form = now.closest('form');  
+			var success = now.data('success');
+			var unsuccessful = now.data('unsuccessful');
+			var formdata = false;
+			if (window.FormData){
+				formdata = new FormData(form[0]);
+			}
+	
+			$.ajax({
+				url: form.attr('action'), // form action url
+				type: 'POST', // form submit method get/post
+				dataType: 'html', // request type html/json/xml
+				data: formdata ? formdata : form.serialize(), // serialize form data 
+				cache       : false,
+				contentType : false,
+				processData : false,
+				beforeSend: function() {
+					now.html('<span>submitting...</span>');
+				},
+				success: function(data) {
+					if(data == 'success'){
+						notify(success,'success','bottom','right');
+						$(".closeModal").click();
+					} else {
+						var text = '<div>'+unsuccessful+'</div>'+data;
+						notify(text,'warning','bottom','right');
+					}
+					now.html(btntxt);
+				},
+				error: function(e) {
+					console.log(e)
+				}
+			});
+		});
+		
+		$('body').on('click','.signup_btn',function(event){
+			event.preventDefault();
+			var now = $(this);
+			var btntxt = now.html();
+			var form = now.closest('form');  
+			var ing = now.data('ing');
+			var success = now.data('success');
+			var unsuccessful = now.data('unsuccessful');
+			var rld = now.data('reload');
+			var formdata = false;
+			if (window.FormData){
+				formdata = new FormData(form[0]);
+			}
+	
+			$.ajax({
+				url: form.attr('action'), // form action url
+				type: 'POST', // form submit method get/post
+				dataType: 'html', // request type html/json/xml
+				data: formdata ? formdata : form.serialize(), // serialize form data 
+				cache       : false,
+				contentType : false,
+				processData : false,
+				beforeSend: function() {
+					now.html(ing);
+				},
+				success: function(data) {
+					if(data == 'done'){
+						notify(success,'success','bottom','right');
+						if(rld == 'ok'){
+							setTimeout(function(){reload_page()}, 2000);
+						}
+						$(".closeModal").click();
+					} else {
+						var text = '<div>'+unsuccessful+'</div>'+data;
+						notify(text,'warning','bottom','right');
+					}
+					now.html(btntxt);
+				},
+				error: function(e) {
+					console.log(e)
+				}
+			});
+		});
+		
+		$('body').on('click', '.wish_it', function(){
+			var state = check_login_stat('state');
+			var product = $(this).data('pid');
+			var button = $(this);
+			
+			state.success(function (data) {
+				if(data == 'hypass'){
+					$.ajax({
+						url: base_url+'index.php/home/wishlist/add/'+product,
+						beforeSend: function() {
+							button.html('<span>Working...</span>');
+						},
+						success: function(data) {
+							button.html('<span>Favored</span>');
+							button.removeClass("wish_it");
+							button.addClass("wished_it");
+							button.closest('ul').data('originalTitle',wishlist_add1);
+							notify(wishlist_add,'info','bottom','right');
+							sound('successful_wish');
+						},
+						error: function(e) {
+							console.log(e)
+						}
+					});
+				} else {
+					signin();
+				}
+			});
+		});
+		
+		$('body').on('click', '.btn_wish', function(){
+			var state = check_login_stat('state');
+			var product = $(this).data('pid');
+			var button = $(this);
+			state.success(function (data) {
+				if(data == 'hypass'){
+					$.ajax({
+						url: base_url+'index.php/home/wishlist/add/'+product,
+						beforeSend: function() {
+							button.html(wishlist_adding); // change submit button text
+						},
+						success: function(data) {
+							button.removeClass("btn_wish");
+							button.addClass("btn_wished");
+							button.html('<span>'+wishlist_add1+'</span>');
+							notify(wishlist_add,'info','bottom','right');
+							sound('successful_wish');
+						},
+						error: function(e) {
+							console.log(e)
+						}
+					});
+				} else {
+					signin();
+				}
+			});
+		});
+	
+		
+		
+		$('body').on('click','.logup_btn', function(){
+			var here = $(this); // alert div for show alert message
+			var form = here.closest('form');
+			var can = '';
+			var ing = here.data('ing');
+			var msg = here.data('msg');
+			var prv = here.html();
+			
+			//var form = $(this);
+			var formdata = false;
+			if (window.FormData){
+				formdata = new FormData(form[0]);
+			}
+			
+			$.ajax({
+				url: form.attr('action'), // form action url
+				type: 'POST', // form submit method get/post
+				dataType: 'html', // request type html/json/xml
+				data: formdata ? formdata : form.serialize(), // serialize form data 
+				cache       : false,
+				contentType : false,
+				processData : false,
+				beforeSend: function() {
+					here.html(ing); // change submit button text
+				},
+				success: function(data) {					
+					here.fadeIn();
+					here.html(prv);
+					if(data == 'done'){
+						setTimeout(
+							function() {
+								var url = window.location.href;
+								if(url.search("vendor_logup") !== -1){
+									//$('.vendor_login_btn')[0].click();
+									location.replace("http://localhost/ecomx/index.php/home/vendor_login_msg");
+								} else{
+									location.replace("http://localhost/ecomx/index.php/home/login_set/login");
+								}
+							}, 2000
+						);
+						
+						
+						notify('Signup successful','success','bottom','right'); 
+						//sound('successful_logup');  		
+					} else {
+						here.closest('.modal-content').find('#close_logup_modal').click();
+						notify('Signup failed'+'<br>'+data,'warning','bottom','right');
+						//sound('unsuccessful_logup');
+					}
+				},
+				error: function(e) {
+					console.log(e)
+				}
+			});
+		});
+		
+		$("body").on('click','.login_btn',function(){
+			var here = $(this); // alert div for show alert message
+			var text = here.html(); // alert div for show alert message
+			var form = here.closest('form');
+			var logging = here.data('ing');
+			//var form = $(this);
+			var formdata = false;
+			if (window.FormData){
+				formdata = new FormData(form[0]);
+			}
+			$.ajax({
+				url: form.attr('action'), // form action url
+				type: 'POST', // form submit method get/post
+				dataType: 'html', // request type html/json/xml
+				data: formdata ? formdata : form.serialize(), // serialize form data 
+				cache       : false,
+				contentType : false,
+				processData : false,
+				beforeSend: function() {
+					here.addClass('disabled');
+					here.html(logging); // change submit button text
+				},
+				success: function(data) {
+					here.fadeIn();
+					here.html(text);
+					here.removeClass('disabled');
+					if(data == 'done'){
+						$('.closeModal').click();
+						notify('Successful Login','success','bottom','right');
+						setTimeout(function(){reload_page()}, 2000);
+						//sound('successful_login');
+					} else if(data == 'failed'){
+						notify('Login Failed','warning','bottom','right');
+						//sound('unsuccessful_login');
+					} else {
+						notify(data,'warning','bottom','right');
+					}
+				},
+				error: function(e) {
+					console.log(e)
+				}
+			});
+		});
+		
+		
+		
+		
+		$("body").on('click','.forget_btn',function(){
+			var here = $(this); // alert div for show alert message
+			var text = here.html(); // alert div for show alert message
+			var form = here.closest('form');
+			var submitting = here.data('ing');
+			//var form = $(this);
+			var formdata = false;
+			if (window.FormData){
+				formdata = new FormData(form[0]);
+			}
+			$.ajax({
+				url: form.attr('action'), // form action url
+				type: 'POST', // form submit method get/post
+				dataType: 'html', // request type html/json/xml
+				data: formdata ? formdata : form.serialize(), // serialize form data 
+				cache       : false,
+				contentType : false,
+				processData : false,
+				beforeSend: function() {
+					here.addClass('disabled');
+					here.html(submitting); // change submit button text
+				},
+				success: function(data) {
+					here.fadeIn();
+					here.html(text);
+					here.removeClass('disabled');
+					if(data == 'email_sent'){
+						notify(email_sent,'info','bottom','right');
+						$(".closeModal").click();
+					} else if(data == 'email_nay'){
+						$(".closeModal").click();
+						notify(email_noex,'info','bottom','right');
+					} else if(data == 'email_not_sent'){
+						$(".closeModal").click();
+						notify(email_fail,'info','bottom','right');
+					} else {
+						notify(data,'warning','bottom','right');
+					}
+				},
+				error: function(e) {
+					console.log(e)
+				}
+			});
+		});
+		
+		
+		
+	});
+</script>
+
+<style>
+	.loading_parent{
+		height:500px;
+		width:100%;	
+		position:absolute;
+	}
+	#loading-center-relative {
+		position: relative;
+		left: 50%;
+		top: 50%;
+		height: 150px;
+		width: 150px;
+		margin-top: -75px;
+		margin-left: -75px;
+	}
+	.object_on{
+		width: 20px;
+		height: 20px;
+		float: left;
+		margin-right: 20px;
+		margin-top: 65px;
+		-moz-border-radius: 50% 50% 50% 50%;
+		-webkit-border-radius: 50% 50% 50% 50%;
+		border-radius: 50% 50% 50% 50%;
+		zoom: .5;
+	}
+	
+	#object_one_on {	
+		-webkit-animation: object_one 1.5s infinite;
+		animation: object_one 1.5s infinite;
+	}
+	#object_two_on {
+		-webkit-animation: object_two 1.5s infinite;
+		animation: object_two 1.5s infinite;
+		-webkit-animation-delay: 0.25s; 
+		animation-delay: 0.25s;
+	}
+	#object_three_on {
+		-webkit-animation: object_three 1.5s infinite;
+		animation: object_three 1.5s infinite;
+		-webkit-animation-delay: 0.5s;
+		animation-delay: 0.5s;
+	}
+	
+	@-webkit-keyframes object_one_on {
+	75% { -webkit-transform: scale(0); }
+	}
+	
+	@keyframes object_one_on {
+	  75% { 
+		transform: scale(0);
+		-webkit-transform: scale(0);
+	  }
+	}
+	@-webkit-keyframes object_two_on {
+	  75% { -webkit-transform: scale(0); }
+	}
+	
+	@keyframes object_two_on {
+	  75% { 
+		transform: scale(0);
+		-webkit-transform:  scale(0);
+	  }
+	}
+	@-webkit-keyframes object_three_on {
+	  75% { -webkit-transform: scale(0); }
+	}
+	@keyframes object_three_on {
+	  75% { 
+		transform: scale(0);
+		-webkit-transform: scale(0);
+	  }
+	}
+</style>
+
+
+<style>
+
+#loading-center1{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#loading-center-absolute1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 150px;
+	width: 150px;
+	margin-top: -75px;
+	margin-left: -75px;
+}
+.object1{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 65px;
+	-moz-border-radius: 50% 50% 50% 50%;
+	-webkit-border-radius: 50% 50% 50% 50%;
+	border-radius: 50% 50% 50% 50%;
+}
+
+#object_one1 {	
+	-webkit-animation: object_one1 1.5s infinite;
+	animation: object_one1 1.5s infinite;
+	}
+#object_two1 {
+	-webkit-animation: object_two1 1.5s infinite;
+	animation: object_two1 1.5s infinite;
+	-webkit-animation-delay: 0.25s; 
+    animation-delay: 0.25s;
+	}
+#object_three1 {
+    -webkit-animation: object_three1 1.5s infinite;
+	animation: object_three1 1.5s infinite;
+	-webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+	
+	}
+
+
+@-webkit-keyframes object_one1 {
+75% { -webkit-transform: scale(0); }
+}
+
+@keyframes object_one1 {
+
+  75% { 
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+
+}
+
+@-webkit-keyframes object_two1 {
+ 
+
+  75% { -webkit-transform: scale(0); }
+
+
+}
+
+@keyframes object_two1 {
+  75% { 
+    transform: scale(0);
+    -webkit-transform:  scale(0);
+  }
+
+}
+
+@-webkit-keyframes object_three1 {
+
+  75% { -webkit-transform: scale(0); }
+
+}
+
+@keyframes object_three1 {
+
+  75% { 
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  
+}
+
+</style>
+<div id="loading1" style="display:none;">
+    <div id="loading-center1">
+        <div id="loading-center-absolute1">
+            <div class="object1 base" id="object_one1"></div>
+            <div class="object1 base" id="object_two1"></div>
+            <div class="object1 base" id="object_three1"></div>
+        </div>
+	</div>
+</div>
+
+
+
+<input type="hidden" id="page_num" value="0" />
+<script>
+	var loading = $('#loading1').html();
+	var base = $('.base').css('background');
+	loading = '<span class="loading_parent col-md-12">'+loading+'</span>';
+    function filter(page){
+		if(page == 'no'){
+			page = $('#page_num').val();	
+		} else {
+			$('#page_num').val(page);
+		}
+        var form = $('#filter_form');
+        var alert = $('#result');
+        var formdata = false;
+        if (window.FormData){
+            formdata = new FormData(form[0]);
+        }
+        $.ajax({
+            url: form.attr('action')+page+'/', // form action url
+			type: 'POST', // form submit method get/post
+			dataType: 'html', // request type html/json/xml
+			data: formdata ? formdata : form.serialize(), // serialize form data 
+			cache       : false,
+			contentType : false,
+			processData : false,
+            beforeSend: function() {
+				alert.fadeOut();
+                alert.html(loading).fadeIn(); // change submit button text
+				$('.loading_parent').find("#loading-center").show();
+				$('.loading_parent').find(".object1").addClass('base');
+            },
+            success: function(data) {
+				setTimeout(function(){
+                	alert.html(data); // fade in response data
+				}, 20);
+				setTimeout(function(){
+                	alert.fadeIn(); // fade in response data
+					$('.pagination_links').html($('#pagenation_set_links').html());
+				}, 30);
+				$('.loading_parent').find("#loading-center1").hide();
+            },
+            error: function(e) {
+                console.log(e)
+            }
+        });
+        
+    }
+	
+	$(document).ready(function() {
+			
+		$('body').on('click','.remove_one', function(){
+			var here = $(this);
+			var rowid = here.closest('.media').data('rowid');
+			var thetr = here.closest('.media');
+			var list1 = $('#total');
+			$.ajax({
+				url: base_url+'index.php/home/cart/remove_one/'+rowid,
+				beforeSend: function() {
+					list1.html('...');
+				},
+				success: function(data) {
+					list1.html(data).fadeIn();
+					notify(cart_product_removed,'success','bottom','right');
+					//sound('cart_product_removed');
+					reload_header_cart();
+					others_count();
+					thetr.hide('fast');
+					if($('#coup_frm').length > 0){
+						$('.carter_table').find("tr[data-rowid='" + rowid + "']").remove();
+						if(data == 0){
+							location.replace('http://localhost/ecomx/');	
+						}
+					}
+				},
+				error: function(e) {
+					console.log(e)
+				}
+			});
+		});
+    });
+    
+</script>
+
+<script>
+		function load_textarea(){
+			$('.textarea').wysihtml5({
+				"font-styles": true,
+				"color": true,
+				"emphasis": true,
+				"lists": true,
+				"html": true,
+				"link": false,
+				"image": false,
+				events: {},
+				parserRules: {
+					classes: {
+						// (path_to_project/lib/css/wysiwyg-color.css)
+						"wysiwyg-color-silver" : 1,
+						"wysiwyg-color-gray" : 1,
+						"wysiwyg-color-white" : 1,
+						"wysiwyg-color-maroon" : 1,
+						"wysiwyg-color-red" : 1,
+						"wysiwyg-color-purple" : 1,
+						"wysiwyg-color-fuchsia" : 1,
+						"wysiwyg-color-green" : 1,
+						"wysiwyg-color-lime" : 1,
+						"wysiwyg-color-olive" : 1,
+						"wysiwyg-color-yellow" : 1,
+						"wysiwyg-color-navy" : 1,
+						"wysiwyg-color-blue" : 1,
+						"wysiwyg-color-teal" : 1,
+						"wysiwyg-color-aqua" : 1,
+						"wysiwyg-color-orange" : 1
+					},
+					tags: {
+						"b":  {},
+						"i":  {},
+						"br": {},
+						"ol": {},
+						"ul": {},
+						"li": {},
+						"h1": {},
+						"h2": {},
+						"h3": {},
+						"h4": {},
+						"h5": {},
+						"h6": {},
+						"blockquote": {},
+						"u": 1,
+						"img": {
+							"check_attributes": {
+								"width": "numbers",
+								"alt": "alt",
+								"src": "url",
+								"height": "numbers"
+							}
+						},
+						"a":  {
+							check_attributes: {
+								'href': "url", // important to avoid XSS
+								'target': 'alt',
+								'rel': 'alt',
+								
+							}
+						},
+						"span": 1,
+						"div": 1,
+						// to allow save and edit files with code tag hacks
+						"code": 1,
+						"pre": 1
+					}
+				},
+				stylesheets: ["http://localhost/ecomx/template/front/wysihtml5/wysiwyg-color.css"], // (path_to_project/lib/css/wysiwyg-color.css)
+				locale: "en"
+			});
+		}
+
+	    function check_login_stat(thing){
+	        return $.ajax({
+	            url: 'http://localhost/ecomx/index.php/home/check_login/'+thing
+	        });
+	    }
+		
+		function load_iamges(){
+			$('body').find('.image_delay').each(function(){
+				var src = $(this).data('src');
+				if($(this).is('img')){
+					$(this).attr('src',src);			
+				} else {
+					$(this).css('background-image',"url('"+src+"')");			
+				}
+			});	
+		}
+
+</script>    			<script>
+            var base_url = "http://localhost/ecomx/";
+        </script>
+        <script src="http://localhost/ecomx/template/front/js/ajax_method.js"></script>
+        <script src="http://localhost/ecomx/template/front/js/bootstrap-notify.min.js"></script>
+        <script src="http://localhost/ecomx/template/front/plugins/jquery-ui/jquery-ui.min.js"></script>
+        <script src="http://localhost/ecomx/template/front/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="http://localhost/ecomx/template/front/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+        <!-- JS Global -->
+        <script src="http://localhost/ecomx/template/front/plugins/superfish/js/superfish.min.js"></script>
+        <script src="http://localhost/ecomx/template/front/plugins/jquery.sticky.min.js"></script>
+        <script src="http://localhost/ecomx/template/front/plugins/jquery.easing.min.js"></script>
+        <script src="http://localhost/ecomx/template/front/plugins/jquery.smoothscroll.min.js"></script>
+        <script src="http://localhost/ecomx/template/front/plugins/smooth-scrollbar.min.js"></script>
+        <script src="http://localhost/ecomx/template/front/plugins/jquery.cookie.js"></script>
+        
+        <script src="http://localhost/ecomx/template/front/plugins/modernizr.custom.js"></script>
+        <script src="http://localhost/ecomx/template/front/modal/js/jquery.active-modals.js"></script>
+        <script src="http://localhost/ecomx/template/front/js/theme.js"></script>
+        
+        
+
+        
+        <script src="http://localhost/ecomx/template/front/plugins/owl-carousel2/owl.carousel.min.js"></script>
+        <script>
+            function set_price_slider(min,max,univ_min,univ_max){ 
+                var priceSliderRange = $('#slider-range');
+                if ($.ui) {
+                    /**/
+                    if ($(priceSliderRange).length) {
+                        $(priceSliderRange).slider({
+                            range: true,
+                            min: univ_min,
+                            max: univ_max,
+                            values: [min, max],
+                            slide: function (event, ui){
+                        		$("#amount").val(currency + Math.round((Number(ui.values[0])*exchange)) + " - " + currency + Math.round((Number(ui.values[1])*exchange)));
+                                $("#rangeaa").val(ui.values[0] + ";" + ui.values[1]);
+                            },
+                            stop: function( event, ui ) {
+                            	do_product_search();
+                            }
+                        });
+						$("#amount").val(
+							currency + Math.round(Number($("#slider-range").slider("values", 0))*exchange) + " - " + currency + Math.round(Number($("#slider-range").slider("values", 1))*exchange)
+						);
+                        $("#rangeaa").val($("#slider-range").slider("values", 0) + ";" + $("#slider-range").slider("values", 1));
+                    }
+                    
+                }
+            }
+        </script>
+
+        <form id="cart_form_singl">
+                <input type="hidden" name="color" value="">
+                <input type="hidden" name="qty" value="1">
+        </form>    </body>
+</html>
